@@ -2,9 +2,8 @@ library(shiny)
 
 
 shinyUI(pageWithSidebar(
-
   
-  # Application title
+  #Application title
   headerPanel(
     HTML('<img src="banner.png"/>'),
     windowTitle="My Title"
