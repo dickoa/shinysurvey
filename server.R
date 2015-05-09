@@ -1,6 +1,4 @@
 library(shiny)
-
-#setwd("E:/ENSAE/Stage/Code/shinyapp")
 # Define server logic required to summarize and view the selected dataset
 shinyServer(function(input, output) {
   
