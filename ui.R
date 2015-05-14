@@ -13,6 +13,9 @@ sidebarPanel(
    
     selectInput("dataset", "Choisir une enquete:",
                 choices = c("ESPS 1", "ESPS 2")),
+    radioButtons("radio", 
+                 label = "",
+                 choices = list("Base Individu" = 1, "Base Ménage" = 2),selected = 1),
     
     helpText(
         ##HTML("<br></br> Source : <a href = \"http://ns.ansd.sn/esps/\">ESPS II</a>"),
